@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Health & System Status Check",
+    "category": "Backend Core",
+    "status": "WORKING",
+    "details": "Database: sqlite (healthy), Vector Retrieval: True",
+    "duration_ms": 64.32
+  },
+  {
+    "name": "Model Discovery & Auto-Switching Registry",
+    "category": "AI Router",
+    "status": "WORKING",
+    "details": "Registered models: grok-2, grok-2-vision-1212, gemini-3.5-flash, gemini-1.5-flash, llama-3.3-70b-versatile, mock. Auto-fallback enabled: True",
+    "duration_ms": 6.2
+  },
+  {
+    "name": "Conversational Chat & Database Persistence",
+    "category": "Chat Engine",
+    "status": "WORKING",
+    "details": "Session: 874a8287..., Messages saved in DB: 2, Model used: mock",
+    "duration_ms": 57.85
+  },
+  {
+    "name": "Model Auto-Switching & Failover Engine",
+    "category": "AI Router",
+    "status": "WORKING",
+    "details": "Targeted 'grok-2', seamlessly resolved to 'gemini-3.5-flash' (Switched from: grok-2)",
+    "duration_ms": 5662.08
+  },
+  {
+    "name": "Document Parsing & Chunking Pipeline (TXT)",
+    "category": "RAG System",
+    "status": "WORKING",
+    "details": "Document ID: 909161a7..., Chunks generated: 1, Chunks verified in DB: 1",
+    "duration_ms": 1619.29
+  },
+  {
+    "name": "Semantic RAG Vector Retrieval & Citations",
+    "category": "RAG System",
+    "status": "WORKING",
+    "details": "Retrieved 1 grounded context chunk(s). Top citation: jwst_overview.txt",
+    "duration_ms": 1893.78
+  },
+  {
+    "name": "Live Web Search Grounding (DuckDuckGo)",
+    "category": "Web Search",
+    "status": "DEGRADED",
+    "details": "DuckDuckGo returned 0 results or rate limited; graceful fallback engaged.",
+    "duration_ms": 5848.04
+  },
+  {
+    "name": "Multimodal Vision Analysis",
+    "category": "Multimodal",
+    "status": "WORKING",
+    "details": "Response: [Mock Vision Analysis]\nImage received successfully (67 bytes... Model: mock",
+    "duration_ms": 5600.3
+  },
+  {
+    "name": "Text-to-Speech (TTS) Synthesis",
+    "category": "Multimodal",
+    "status": "WORKING",
+    "details": "Generated valid MP3 audio stream: 38016 bytes, Content-Type: audio/mpeg",
+    "duration_ms": 653.67
+  },
+  {
+    "name": "AI Text-to-Image Generation",
+    "category": "Multimodal",
+    "status": "WORKING",
+    "details": "Generated high-res visual: 50295 bytes JPEG, Model: flux-flux",
+    "duration_ms": 7766.74
+  },
+  {
+    "name": "Generated Document Versioning & Export",
+    "category": "Document Engine",
+    "status": "WORKING",
+    "details": "Doc ID: b4a0c70c..., Initial Version: 1, Upgraded Version: 2",
+    "duration_ms": 27.33
+  },
+  {
+    "name": "Empathetic Emotional Support Mode",
+    "category": "Safety & Empathy",
+    "status": "WORKING",
+    "details": "Generated compassionate active-listening reflection: 'I hear you, and it sounds like you're going through a meaningful ...'",
+    "duration_ms": 19.84
+  },
+  {
+    "name": "988 Crisis Safety Guardrail Interception",
+    "category": "Safety & Empathy",
+    "status": "WORKING",
+    "details": "Interception model: safety-guardrail, 988 Helpline Present: True, Unpersisted for Privacy: True",
+    "duration_ms": 8.88
+  },
+  {
+    "name": "Google Gemini Live Cloud API",
+    "category": "Cloud Providers",
+    "status": "WORKING",
+    "details": "Model: gemini-3.5-flash, Response: 'READY'",
+    "duration_ms": 4661.17
+  },
+  {
+    "name": "xAI Grok Live Cloud API",
+    "category": "Cloud Providers",
+    "status": "DEGRADED",
+    "details": "xAI API response: Grok API quota/limit exceeded (HTTP 403). (Account has $0 balance; auto-router safely skips to next provider)",
+    "duration_ms": 1230.39
+  },
+  {
+    "name": "Frontend Streamlit UI & Multimodal Chat Bar",
+    "category": "Frontend",
+    "status": "WORKING",
+    "details": "Plus Popover & Uploader: True, Model Switcher: True, Action Chips: True, Audio: True",
+    "duration_ms": 1.02
+  }
+]
